@@ -4,6 +4,7 @@ import com.exercise2.*
 import com.exercise3.findLongestWord
 import com.exercise4.encryptMessage
 import com.exercise5.createTrainRoute
+import com.exercise5.TrainDetails
 
 // https://www.codecademy.com/resources/blog/kotlin-code-challenges-for-beginners/
 fun main() {
@@ -23,7 +24,7 @@ fun main() {
     // Exercise 4
     // println(encryptMessage("Codecademy is awesome!")) // output should be “Dpefdbefnz jt bxftpnf!”
 
-    val trainRoutes = arrayOf("NY Penn,", "Babylon", "Sayville")
-    val trainDetails = ""
-    assertEquals(createTrainRoute(trainRoutes), "is stopping at NY Penn, Bablon and Sayville")
+    val trainRoutes = arrayOf("NY Penn", "Babylon", "Sayville")
+    val trainDetails = TrainDetails(234, "Montauk", "10:00")
+    println(createTrainRoute(trainDetails, trainRoutes)) // output should be "is stopping at NY Penn, Bablon and Sayville"
 }
