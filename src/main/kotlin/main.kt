@@ -5,6 +5,8 @@ import com.exercise3.findLongestWord
 import com.exercise4.encryptMessage
 import com.exercise5.createTrainRoute
 import com.exercise5.TrainDetails
+import com.exercise7.printFizzBuzz
+import com.exercise8.printSteps
 
 // https://www.codecademy.com/resources/blog/kotlin-code-challenges-for-beginners/
 fun main() {
@@ -24,7 +26,16 @@ fun main() {
     // Exercise 4
     // println(encryptMessage("Codecademy is awesome!")) // output should be “Dpefdbefnz jt bxftpnf!”
 
-    val trainRoutes = arrayOf("NY Penn", "Babylon", "Sayville")
-    val trainDetails = TrainDetails(234, "Montauk", "10:00")
-    println(createTrainRoute(trainDetails, trainRoutes)) // output should be "is stopping at NY Penn, Bablon and Sayville"
+    // Exercise 5
+//    val trainRoutes = arrayOf("NY Penn", "Babylon", "Sayville")
+//    val trainDetails = TrainDetails(234, "Montauk", "10:00")
+//    println(createTrainRoute(trainDetails, trainRoutes)) // output should be "is stopping at NY Penn, Bablon and Sayville"
+
+    // Exercise 6
+
+    // Exercise 7
+    // println(printFizzBuzz(17)) // output should be "1, 2 , ”Fizz”, 4, “Buzz”, “Fizz”, 7, 8, “Fizz“, “Buzz“, 11, “Fizz”, 13, 14, “FizzBuzz”, 16, 17"
+
+    // Exercise 8
+    // printSteps(3, "$")
 }
